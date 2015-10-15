@@ -1,0 +1,29 @@
+{
+  "name": "elbert",
+  "version": "1.0.0",
+  "description": "Generate static resources that eventually populate from an async operation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test ./test/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "promise": "^7.0.4"
+  },
+  "standard": {
+    "globals": [
+      "it",
+      "describe",
+      "beforeEach",
+      "afterEach"
+    ]
+  },
+  "directories": {
+    "test": "test"
+  }
+}
